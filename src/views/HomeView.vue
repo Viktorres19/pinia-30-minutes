@@ -24,8 +24,8 @@ const count = ref(0)
 	      {{ storeCounter.count }}
       </div>
       <div class="button">
-	      <button @click="decreaseCount">-</button>
-	      <button @click="increaseCount">+</button>
+	      <button @click="storeCounter.decreaseCount">-</button>
+	      <button @click="storeCounter.increaseCount">+</button>
       </div>
       <div>
           This counter is: {{ oddOrEven }}
